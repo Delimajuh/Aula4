@@ -1,0 +1,54 @@
+.foto{
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+    background-color: #ff0808;
+    margin-bottom: 1rem;
+}
+.foto-container{
+   width: 66%
+}
+
+.foto-verde{
+    background-color: #02b90e;
+    height: 600px;
+    grid-row: span 2;
+}
+.flex-container{
+    display: flex;
+    /* display: grid; */
+    height: 400px;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.grid-container{
+   display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+/*
+fr = fração
+    justify-content
+        flex-start - Grudados a esquerda
+        flex-end - Grudados a direita
+        center - Grudados ao centro da tela
+        space-between: Primeiro elemento a esquerda,
+        o último elemento a direita e os demais elementos distribuidos entre eles.
+        space-around: Cada elemento vai possuir um espaçamento igual em volta deles 
+        mesmos de acordo com a distância.
+        space-evenly- Cada elemento vai possuir um espaçamento igual em 
+        volta deles mesmos de forma fixa.
+*/
+/* align-items:
+    stretch - Estica os elementos para que todos fiquem com a mesma altura.
+    flex-start - Alinha os elementos ao topo.
+    flex-end - Alinha os elementos ao final.
+    center - Alinha os elementos ao centro.
+    baseline - Alinha os elementos conforme o conteudo */
+
+    /* flex-wrap: wrap;  Quebra a linha quando não cabe mais elementos na tela.
+        nowrap - Não quebra a linha.
+        wrap - Quebra a linha quando não cabe mais elementos na tela.
+        wrap-reverse - Quebra a linha de cima quando não cabe mais elementos na tela, */
